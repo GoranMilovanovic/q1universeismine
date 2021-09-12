@@ -108,7 +108,8 @@ footer <- paste0(
   "<br>",
   "[![](_img/CC0_button.png)]", 
   "(https://creativecommons.org/share-your-work/public-domain/cc0/)   ",
-  "[![](_img/GitHub-Mark-32px.png)](https://github.com/GoranMilovanovic)",
+  "[![](_img/GitHub-Mark-32px.png)]", 
+  "(https://github.com/GoranMilovanovic/q1universeismine)",
   "<br><br><br>"
   )
 
