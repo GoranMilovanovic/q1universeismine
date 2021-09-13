@@ -61,7 +61,7 @@ wd_entities_frame$description[is.na(wd_entities_frame$description)] <- ""
 
 ### --- add pricing in ETH
 
-wd_entities_frame$e_init <- (1000:1)/10
+wd_entities_frame$e_init <- (1000:1)/100
 
 ### --- store wd_entities_frame
 

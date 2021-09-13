@@ -25,12 +25,28 @@ output:
 
 ### --- intro
 
-intro <- paste0("<hr>", 
-                "**QR code references to first 1,000 Wikidata entities.**",
-                "<br>",
-                "**All these worlds are yours. ", 
-                "Attempt no landing at other entities.**",
-                "<br>")
+intro <- 
+  paste0("[![](_img/github.png)]",
+         "(https://github.com/GoranMilovanovic/q1universeismine)  ",
+         "[![](_img/twitter.png)]",
+         "(https://twitter.com/q1universe)  ",
+         "[![](_img/instagram.png)]",
+         "(https://www.instagram.com/q1universeismine)  ",
+         "<hr>",
+         "**QR code references to first 1,000 Wikidata entities.**",
+         "<br>",
+         "**All these worlds are yours. ",
+         "Attempt no landing at other entities.**",
+         "<br><br>",
+         "The following 1,000 NFT collectables will be dropped<br>",
+         " in 20 batches (50 items each) beginning in September 2021.<br>",
+         "They will be dropped into [OpenSea](https://opensea.io/)",
+         " via [Polygon](https://polygon.technology/).<br>",
+         "Follow [\\@q1universe](https://twitter.com/q1universe) ",
+         " on Twitter for drop announcements.<br>",
+         "The items are fractionally priced, decreasing in price from<br>",
+         "Q1 Universe is mine.<br>",
+         "**They are concepts, and have references: own them. All of them.**")
 
 ### --- art
 
@@ -97,19 +113,14 @@ components <- paste(components,
 ### --- footer 
 
 footer <- paste0(
+  "<br>",
   "<hr>",
-  paste0("Production ended: ", 
-         as.character(
-           as.POSIXlt(Sys.time(), 
-                      tz = "UTC")
-         ), 
-         " UTC."),
-  "<br>",
-  "<br>",
-  "[![](_img/CC0_button.png)]", 
-  "(https://creativecommons.org/share-your-work/public-domain/cc0/)   ",
-  "[![](_img/GitHub-Mark-32px.png)]", 
-  "(https://github.com/GoranMilovanovic/q1universeismine)",
+  "[![](_img/github.png)]", 
+  "(https://github.com/GoranMilovanovic/q1universeismine)  ",
+  "[![](_img/twitter.png)]",
+  "(https://twitter.com/q1universe)  ",
+  "[![](_img/instagram.png)]",
+  "(https://www.instagram.com/q1universeismine)  ",
   "<br><br><br>"
   )
 
@@ -121,7 +132,8 @@ cmp_rmd <- paste0(
   components, 
   footer
 )
-writeLines(cmp_rmd, "_q1universeismine.Rmd")
+writeLines(cmp_rmd, 
+           "_q1universeismine.Rmd")
 
 ### --- render
 rmarkdown::render("_q1universeismine.Rmd")
