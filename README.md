@@ -18,4 +18,14 @@ Q1 Universe is mine.
 
 --- 
 
-Blah
+**Code**
+
+`_q1universeismine.R`
+- fetch Wikidata items
+- obtain `en` label where available
+- digitally sign in the URL query string
+- pick random backgroun color
+- timestamp
+- produce QR codes.
+
+
