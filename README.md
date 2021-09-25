@@ -2,7 +2,7 @@
 [q1universeismine.net](https://www.q1universeismine.net/)
 
 **QR code references to first 1000 [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) entities,
-digitally signed by the artist.** 
+digitally signed by the artist.**<br> 
 **All these worlds are yours. Attempt no landing at other entities.**
 
 ![](_img/twitter_header.png)
