@@ -8,7 +8,7 @@ digitally signed by the artist.**
 ![](_img/twitter_header.png)
 
 1,000 NFT collectables will be dropped in 20 batches (50 items each) beginning in September 2021.<br>
-They will be dropped into OpenSea via Polygon.<br>
+They will be dropped into [OpenSea](https://opensea.io/) via [Polygon](https://polygon.technology/).<br>
 Follow [@q1universe](https://twitter.com/q1universe) on Twitter for drop announcements.<br>
 The items are fractionally priced, decreasing in price from Q1 Universe is mine.
 
