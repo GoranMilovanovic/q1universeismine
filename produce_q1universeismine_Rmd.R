@@ -132,6 +132,8 @@ footer <- paste0(
   "(https://twitter.com/q1universe)  ",
   "[![](_img/instagram.png)]",
   "(https://www.instagram.com/q1universeismine)  ",
+  "<br><br>",
+  "**QR references rendered on: 2021/09/25**",
   "<br><br><br>"
   )
 
