@@ -21,6 +21,8 @@ output:
   html_document:
     theme: cosmo
     toc: no
+    includes:
+      in_header: header.html
 ---
 
 "
