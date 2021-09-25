@@ -63,6 +63,19 @@ wd_entities_frame$description[is.na(wd_entities_frame$description)] <- ""
 
 wd_entities_frame$e_init <- (1000:1)/100
 
+### --- add batch info
+batch <- rep(1:20, 
+             50)
+batch <- sample(batch, 
+                size = length(batch), 
+                replace = FALSE)
+wd_entities_frame$batch <- batch
+
+### --- sign
+wd_entities_frame$URL <- 
+  paste0(wd_entities_frame$URL, 
+         "?@gsmilovanovic")
+
 ### --- store wd_entities_frame
 
 write.csv(wd_entities_frame, 

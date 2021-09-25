@@ -6,13 +6,15 @@
 ### --- script
 ### --- produce_q1universeismine_Rmd.R
 
+### --- lib
+library(magrittr)
+
 ### --- header
 
 header <- "---
 title: Q1 universe is mine.
 author:
 - name: \\@GSMilovanovic
-  affiliation: DataKolektiv
 date: \"`r format(Sys.time(), '%d %B %Y')`\"
 abstract: 
 output:
@@ -33,12 +35,13 @@ intro <-
          "[![](_img/instagram.png)]",
          "(https://www.instagram.com/q1universeismine)  ",
          "<hr>",
-         "**QR code references to first 1,000 Wikidata entities.**",
+         "**QR code references to first 1000 Wikidata entities,",
          "<br>",
-         "**All these worlds are yours. ",
+         "digitally signed by the artist. All these worlds are yours.",
+         "<br>",
          "Attempt no landing at other entities.**",
          "<br><br>",
-         "The following 1,000 NFT collectables will be dropped<br>",
+         "1,000 NFT collectables will be dropped<br>",
          " in 20 batches (50 items each) beginning in September 2021.<br>",
          "They will be dropped into [OpenSea](https://opensea.io/)",
          " via [Polygon](https://polygon.technology/).<br>",
@@ -58,6 +61,11 @@ wd_entities_frame <- read.csv(
   row.names = 1,
   stringsAsFactors = FALSE
   )
+
+# - select batches to run
+sb <- 1
+wd_entities_frame <- wd_entities_frame %>% 
+  dplyr::filter(batch %in% sb)
 
 # - art:components
 lF <- list.files("_qr/")
@@ -96,6 +104,9 @@ components <- lapply(wd_entities_frame$qid, function(x) {
                  wd_entities_frame$timestamp[w],
                  " UTC",
                  "<br>",
+                 "B", wd_entities_frame$batch[w],
+                 "  **&Xi; ", wd_entities_frame$e_init[w],
+                 "**<br>",
                  "[![](",
                  paste0("_qr/", lF[wQR]),
                  ")](", 
@@ -133,7 +144,7 @@ cmp_rmd <- paste0(
   footer
 )
 writeLines(cmp_rmd, 
-           "_q1universeismine.Rmd")
+           "index.Rmd")
 
 ### --- render
-rmarkdown::render("_q1universeismine.Rmd")
+rmarkdown::render("index.Rmd")
