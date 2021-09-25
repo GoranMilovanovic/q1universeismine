@@ -36,3 +36,9 @@ The items are fractionally priced, decreasing in price from Q1 Universe is mine.
 - abstraction to produce `index.Rmd` and
 - render `index.html`;
 - the rendered batch(es) are controlled via `sb`.
+
+You will also need the following directories to produce your own:
+- `_art_frame/`
+- `_qr`
+
+**Note.** Because this is unique artwork I am not using `set.seed()` anywhere. You will be able to produce your own artwork - formally equivalent to mine - but the choice of the QR code background color is left random.
