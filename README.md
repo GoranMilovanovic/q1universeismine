@@ -22,8 +22,13 @@ The items are fractionally priced, decreasing in price from Q1 Universe is mine.
 - fetch Wikidata items
 - obtain `en` label where available
 - digitally sign in the URL query string
-- pick random backgroun color
+- pricing
+- pick random background color
 - timestamp
+- add random batch
 - produce QR codes.
 
-
+`_q1universeismine.Rmd`
+- abstraction to produce `_q1universeismine.Rmd` and
+- render `index.html`;
+- the rendered batch(es) are controlled via `sb`.
