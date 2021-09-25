@@ -23,7 +23,7 @@ The items are fractionally priced, decreasing in price from Q1 Universe is mine.
 **Code**
 
 `_q1universeismine.R`
-- <font size="1">fetch Wikidata items</font>
+- fetch Wikidata item via API
 - obtain `en` label where available
 - digitally sign in the URL query string
 - pricing
