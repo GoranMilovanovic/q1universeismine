@@ -53,7 +53,7 @@ project:<br><br>
 - The **Symbol** is to the left in the schema;<br>
 - **I** represents the **Invoked** in the schema 
 (which is a page view of [https://www.wikidata.org/wiki/Q42?@gsmilovanovic](https://www.wikidata.org/wiki/Q42?@gsmilovanovic) in this example - 
-a digitally signed URL of Q42 in Wikidata;<br>
+a digitally signed URL of Q42 in Wikidata);<br>
 - An **Invocation** is a complete piece only upon interaction: **Symbol &#8594; I**."
 
 ### --- footer 

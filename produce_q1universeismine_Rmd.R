@@ -37,6 +37,8 @@ intro <-
          "[![](_img/instagram.png)]",
          "(https://www.instagram.com/q1universeismine)  ",
          "<hr>",
+         "[Invocations](https://www.q1universeismine.net/invocations)",
+         "<br><br>",
          "**QR code references to first 1000 Wikidata entities,",
          "<br>",
          "digitally signed by the artist. All these worlds are yours.",

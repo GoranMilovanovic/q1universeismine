@@ -25,5 +25,5 @@ project:<br><br>
 - The **Symbol** is to the left in the schema;<br>
 - **I** represents the **Invoked** in the schema 
 (which is a page view of [https://www.wikidata.org/wiki/Q42?@gsmilovanovic](https://www.wikidata.org/wiki/Q42?@gsmilovanovic) in this example - 
-a digitally signed URL of Q42 in Wikidata;<br>
+a digitally signed URL of Q42 in Wikidata);<br>
 - An **Invocation** is a complete piece only upon interaction: **Symbol &#8594; I**.<br><hr>[![](_img/github.png)](https://github.com/GoranMilovanovic/q1universeismine)  [![](_img/twitter.png)](https://twitter.com/q1universe)  [![](_img/instagram.png)](https://www.instagram.com/q1universeismine)  <br><br>**Invocations:Q1 universe is mine.  rendered on: 2021/09/25**<br><br><br>
