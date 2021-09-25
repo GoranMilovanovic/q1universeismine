@@ -28,7 +28,7 @@ The items are fractionally priced, decreasing in price from Q1 Universe is mine.
 - add random batch
 - produce QR codes.
 
-`_q1universeismine.Rmd`
-- abstraction to produce `_q1universeismine.Rmd` and
+`produce_q1universeismine_Rmd.R`
+- abstraction to produce `index.Rmd` and
 - render `index.html`;
 - the rendered batch(es) are controlled via `sb`.
