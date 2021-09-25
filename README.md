@@ -1,6 +1,10 @@
 # Q1 universe is mine.
 [q1universeismine.net](https://www.q1universeismine.net/)
 
+[![](_img/github.png)](https://github.com/GoranMilovanovic/q1universeismine)
+[![](_img/twitter.png)](https://twitter.com/q1universe)
+[![](_img/instagram.png)](https://www.instagram.com/q1universeismine)
+
 **QR code references to first 1000 [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) entities,
 digitally signed by the artist.**<br> 
 **All these worlds are yours. Attempt no landing at other entities.**
