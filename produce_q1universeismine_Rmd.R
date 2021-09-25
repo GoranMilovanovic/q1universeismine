@@ -45,7 +45,7 @@ intro <-
          "<br>",
          "Attempt no landing at other entities.**",
          "<br><br>",
-         "1,000 NFT collectables will be dropped<br>",
+         "1,000 pieces will be dropped<br>",
          " in 20 batches (50 items each) beginning in September 2021.<br>",
          "They will be dropped into [OpenSea](https://opensea.io/)",
          " via [Polygon](https://polygon.technology/).<br>",
