@@ -41,4 +41,4 @@ You will also need the following directories to produce your own:
 - `_art_frame/`
 - `_qr`
 
-**Note.** Because this is unique artwork I am not using `set.seed()` anywhere. You will be able to produce your own artwork - formally equivalent to mine - but the choice of the QR code background color is left random. The artwork presented at [q1universeismine.net](https://www.q1universeismine.net/) was rendered **once**, on 2021/09/25.
+**Note.** Because this is unique artwork I am not using `set.seed()` anywhere. You will be able to produce your own artwork - formally equivalent to mine - but the choice of the QR code background color is left random. The works at [q1universeismine.net](https://www.q1universeismine.net/) were rendered **once**, on 2021/09/25.
