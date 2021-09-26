@@ -21,7 +21,7 @@ An Invocation is complete *only upon interaction* with the Symbol which
 produces the Invoked.<br><br>
 **Example.** From the [Q1 Universe is mine.](https://www.q1universeismine.net)
 project:<br><br>
-![](_img/invocation.png)<br><br>
+![](_img/invocations.png)<br><br>
 - The **Symbol** is to the left in the schema;<br>
 - **I** represents the **Invoked** in the schema 
 (which is a page view of [https://www.wikidata.org/wiki/Q42?@gsmilovanovic](https://www.wikidata.org/wiki/Q42?@gsmilovanovic) in this example - 
