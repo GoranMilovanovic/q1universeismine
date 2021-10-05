@@ -30,30 +30,38 @@ output:
 ### --- intro
 
 intro <- 
-  paste0("[![](_img/github.png)]",
+  paste0("![](_img/twitter_header_1500x500.png)",
+         "<br><br>",
+         '<a href="https://opensea.io/collection/q1universeismine" 
+          title="Buy on OpenSea" target="_blank">
+          <img style="width:220px; border-radius:5px; box-shadow: 0px 1px 6px 
+          rgba(0, 0, 0, 0.25);" 
+          src="https://storage.googleapis.com/opensea-static/Logomark/Badge%20-%20Available%20On%20-%20BW.png" 
+         alt="Available on OpenSea" /></a>',
+         "<br><br>",
+         "[![](_img/github.png)]",
          "(https://github.com/GoranMilovanovic/q1universeismine)  ",
          "[![](_img/twitter.png)]",
          "(https://twitter.com/q1universe)  ",
          "[![](_img/instagram.png)]",
          "(https://www.instagram.com/q1universeismine)  ",
          "<hr>",
-         "[Invocations](https://www.q1universeismine.net/invocations)",
-         "<br><br>",
-         "**QR code references to first 1000 Wikidata entities,",
-         "<br>",
-         "digitally signed by the artist. All these worlds are yours.",
-         "<br>",
+         "<h4>QR code references to first 1000 Wikidata entities, ",
+         "digitally signed by the artist.</h4>", 
+         "**All these worlds are yours. ",
          "Attempt no landing at other entities.**",
-         "<br><br>",
-         "1,000 pieces will be dropped<br>",
-         " in 20 batches (50 items each) beginning in September 2021.<br>",
+         "<br>",
+         "1,000 pieces will be dropped",
+         " in 20 batches (50 items each) beginning in September 2021. ",
          "They will be dropped into [OpenSea](https://opensea.io/)",
          " via [Polygon](https://polygon.technology/).<br>",
          "Follow [\\@q1universe](https://twitter.com/q1universe) ",
-         " on Twitter for drop announcements.<br>",
-         "The items are fractionally priced, decreasing in price from<br>",
+         " on Twitter for drop announcements. ",
+         "The items are fractionally priced, decreasing in price from ",
          "Q1 Universe is mine.<br>",
-         "**They are concepts, and have references: own them. All of them.**")
+         "**They are concepts, and have references: own them. All of them.**", 
+         "<h4>[Invocations Theory](https://www.q1universeismine.net/invocations)</h4>"
+  )
 
 ### --- art
 
@@ -130,6 +138,13 @@ components <- paste(components,
 footer <- paste0(
   "<br>",
   "<hr>",
+  '<a href="https://opensea.io/collection/q1universeismine" 
+          title="Buy on OpenSea" target="_blank">
+          <img style="width:220px; border-radius:5px; box-shadow: 0px 1px 6px 
+          rgba(0, 0, 0, 0.25);" 
+          src="https://storage.googleapis.com/opensea-static/Logomark/Badge%20-%20Available%20On%20-%20BW.png" 
+         alt="Available on OpenSea" /></a>',
+  "<br><br>",
   "[![](_img/github.png)]", 
   "(https://github.com/GoranMilovanovic/q1universeismine)  ",
   "[![](_img/twitter.png)]",
