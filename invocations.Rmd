@@ -12,18 +12,24 @@ output:
       in_header: header.html
 ---
 
-[![](_img/github.png)](https://github.com/GoranMilovanovic/q1universeismine)  [![](_img/twitter.png)](https://twitter.com/q1universe)  [![](_img/instagram.png)](https://www.instagram.com/q1universeismine)  <hr><br>All presented works are **invocations**.<br><br>
-Each work encompasses two components:<br><br>
-- a **Symbol** (a tokenized digital image which adheres to ownership), and<br>
-- an **Invoked** (which is instantiated only upon interaction with the Symbol).
-<br><br>
-An Invocation is complete *only upon interaction* with the Symbol which 
-produces the Invoked.<br><br>
-**Example.** From the [Q1 Universe is mine.](https://www.q1universeismine.net)
-project:<br><br>
-![](_img/invocations.png)<br><br>
-- The **Symbol** is to the left in the schema;<br>
-- **I** represents the **Invoked** in the schema 
-(which is a page view of [https://www.wikidata.org/wiki/Q42?@gsmilovanovic](https://www.wikidata.org/wiki/Q42?@gsmilovanovic) in this example - 
-a digitally signed URL of Q42 in Wikidata);<br>
-- An **Invocation** is a complete piece only upon interaction: **Symbol &#8594; I**.<br><hr>[![](_img/github.png)](https://github.com/GoranMilovanovic/q1universeismine)  [![](_img/twitter.png)](https://twitter.com/q1universe)  [![](_img/instagram.png)](https://www.instagram.com/q1universeismine)  <br><br>**Invocations:Q1 universe is mine.  rendered on: 2021/09/25**<br><br><br>
+[![](_img/github.png)](https://github.com/GoranMilovanovic/q1universeismine)  [![](_img/twitter.png)](https://twitter.com/q1universe)  [![](_img/instagram.png)](https://www.instagram.com/q1universeismine)  <hr><h2>Esse est percipi</h2><br>
+All presented works are **Invocations**.<br><br>
+          An Invocation encompasses two components:<br><br>
+          - a **Symbol** (a tokenized digital image which is subject to ownership), and<br>
+          - an **Invoked** (which is instantiated only upon interaction with the Symbol).
+          <br><br>
+          An Invocation is **complete** *only upon interaction* with the Symbol which 
+          produces the Invoked.<br><br>
+          **Example.** From the [Q1 Universe is mine.](https://www.q1universeismine.net) 
+          project:<br><br>
+          ![](_img/invocations.png)<br><br>
+          - The **Symbol** is to the left in the schema<br>
+          - **I** represents the **Invoked** in the schema (which is a page view of 
+          [a digitally signed URL of Q42 in Wikidata](https://www.wikidata.org/wiki/Q42?@gsmilovanovic) 
+          in this example)<br> 
+          - An **Invocation** is a complete piece only upon interaction: **[Symbol &#8594; I]**.<br><hr><a href="https://opensea.io/collection/q1universeismine" 
+          title="Buy on OpenSea" target="_blank">
+          <img style="width:220px; border-radius:5px; box-shadow: 0px 1px 6px 
+          rgba(0, 0, 0, 0.25);" 
+          src="https://storage.googleapis.com/opensea-static/Logomark/Badge%20-%20Available%20On%20-%20BW.png" 
+         alt="Available on OpenSea" /></a><br><br>[![](_img/github.png)](https://github.com/GoranMilovanovic/q1universeismine)  [![](_img/twitter.png)](https://twitter.com/q1universe)  [![](_img/instagram.png)](https://www.instagram.com/q1universeismine)  <br><br>**Invocations:Q1 universe is mine.**<br><br><br>
