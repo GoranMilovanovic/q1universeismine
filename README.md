@@ -1,8 +1,6 @@
 # Q1 universe is mine.
 
-[![](_img/github.png)](https://github.com/GoranMilovanovic/q1universeismine)
-
-[OpenSea_Q1Universe.png](https://opensea.io/collection/q1universeismine)
+[![](_img/OpenSea_Q1Universe.png)](https://opensea.io/collection/q1universeismine)
 
 [![](_img/github.png)](https://github.com/GoranMilovanovic/q1universeismine)
 [![](_img/twitter.png)](https://twitter.com/q1universe)
